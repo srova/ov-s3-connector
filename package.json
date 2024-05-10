@@ -1,0 +1,21 @@
+{
+  "name": "ov-s3-connector",
+  "version": "1.0.0",
+  "description": "Connettore per Loopback verso s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "srova",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.0.1",
+    "errs": "^0.3.2",
+    "eventemitter2": "^5.0.1",
+    "aws-sdk": "^2.382.0",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "s3-upload-stream": "^1.0.7",
+    "through2": "^3.0.1"
+  }
+}
